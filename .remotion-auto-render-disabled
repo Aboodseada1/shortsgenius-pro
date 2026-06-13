@@ -1,0 +1,2 @@
+Remotion / joke video renders are turned off on this server.
+Delete this file to allow `render-joke.sh` and `npx ts-node render.ts` to run again.

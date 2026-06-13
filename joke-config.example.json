@@ -1,0 +1,38 @@
+{
+  "type": "question-punchline",
+  "outputFileName": "joke-2024-01-15.mp4",
+  
+  "questionPunchline": {
+    "question": {
+      "text": "Why do programmers prefer dark mode?",
+      "audioFile": "question.mp3",
+      "audioDuration": 2.5
+    },
+    "punchline": {
+      "text": "Because light attracts bugs!",
+      "audioFile": "punchline.mp3", 
+      "audioDuration": 1.8
+    }
+  },
+
+  "story": {
+    "title": "The Developer Interview",
+    "text": "A programmer walks into a job interview. The interviewer asks: 'What's your greatest weakness?' The programmer thinks for a moment and says: 'I'd say it's my attention to detail.' The interviewer nods and makes a note. Then he looks up confused and asks: 'Wait, you wrote your name as undefined.'",
+    "audioFile": "story.mp3",
+    "audioDuration": 15
+  },
+
+  "style": {
+    "backgroundColor": "#0f0f23",
+    "textColor": "#ffffff",
+    "accentColor": "#fbbf24",
+    "questionColor": "#60a5fa",
+    "punchlineColor": "#34d399",
+    "titleColor": "#fbbf24"
+  },
+
+  "settings": {
+    "fps": 30,
+    "handle": "@yourhandle"
+  }
+}

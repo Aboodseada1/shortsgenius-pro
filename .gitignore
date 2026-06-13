@@ -1,0 +1,11 @@
+node_modules/
+.env
+.DS_Store
+out/
+logs/
+*.json
+!package.json
+!package-lock.json
+!joke-config.example.json
+!tsconfig.json
+!daddysjokes-client.example.json
