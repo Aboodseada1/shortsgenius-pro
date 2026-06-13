@@ -30,11 +30,17 @@ Set up your video blueprint by copying the example configuration:
 cp joke-config.example.json joke-config.json
 ```
 
-### 3. Supply Your Assets
+### 3. Audio Generation (Automated TTS)
 
-Drop your TTS (Text-to-Speech) audio files directly into the `public/` directory:
-- `public/question.mp3`
-- `public/punchline.mp3`
+ShortsGenius PRO includes a fully automated, built-in TTS pipeline using `chatterbox`. You don't need to manually record audio!
+
+```bash
+# Generate high-quality voice clones automatically
+python3 generate_audio.py --text "Why do programmers prefer dark mode?" --output public/question.mp3
+python3 generate_audio.py --text "Because light attracts bugs!" --output public/punchline.mp3
+```
+
+*(Note: Requires a `clone.mp3` sample in the root directory for voice cloning. If you prefer, you can still manually drop your own `question.mp3` and `punchline.mp3` into the `public/` folder).*
 
 ### 4. Execute Render
 
