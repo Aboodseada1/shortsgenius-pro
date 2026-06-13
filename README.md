@@ -1,6 +1,6 @@
 # 🎬 ShortsGenius PRO
 
-![ShortsGenius PRO Banner](./banner-wide.png)
+![ShortsGenius PRO Banner](./banner-final.png)
 
 An enterprise-grade, Remotion-based automated video generator designed to programmatically construct, render, and deploy highly engaging vertical video content (YouTube Shorts, TikToks, Instagram Reels) with zero manual editing.
 
